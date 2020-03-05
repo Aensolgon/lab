@@ -7,7 +7,8 @@ import javax.persistence.Id;
 
 @Entity
 public class Message {
-
+    public Message() {
+    }
 
     public Message(String name) {
         this.name = name;
